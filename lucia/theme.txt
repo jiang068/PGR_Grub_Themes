@@ -38,8 +38,8 @@ terminal-height: "100%"
 
 + label {
   # 倒计时菜单
-  left = 66%
-  top = 85%
+  left = 67%
+  top = 83%
   align = "center"
   id = "__timeout__"
   text = "Selected OS will start in %d seconds"
