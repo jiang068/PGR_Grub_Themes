@@ -1,0 +1,49 @@
+title-text: "Boot Menu"
+desktop-image: "background.png"
+
+# Terminal 覆盖层
+terminal-left: "0"
+terminal-top: "0"
+terminal-border: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ boot_menu {
+  # 菜单整体位置
+  left = 66%
+  top = 33%
+  width = 600
+  height = 55%
+
+  # 字体与颜色
+  # font = "Unifont Regular 36"
+  font = "l 28"
+  
+  item_color = "#cccccc"
+  selected_item_color = "#ffffff"
+
+  # 图标尺寸
+  icon_width = 96
+  icon_height = 96
+  item_icon_space = 70
+
+  # 行高与间距
+  item_height = 80
+  item_padding = 6
+  item_spacing = 65
+
+  # 选中效果
+  selected_item_pixmap_style = "select_*.png"
+}
+
++ label {
+  # 倒计时菜单
+  left = 66%
+  top = 85%
+  align = "center"
+  id = "__timeout__"
+  text = "Selected OS will start in %d seconds"
+  color = "#cccccc"
+  # font = "Unifont Regular 28"
+  font = "l 28"
+}
